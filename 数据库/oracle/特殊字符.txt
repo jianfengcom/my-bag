@@ -1,0 +1,5 @@
+-- &
+'|| '&' ||'
+'|| char(38) ||'
+
+update pdl_product_type set logo_path = 'http://img-arch.pconline.com.cn/images/product/brand/44430/A' || '&' || 'G.jpg' where id = 44430;
